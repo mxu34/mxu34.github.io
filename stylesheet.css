@@ -69,11 +69,10 @@ a {
 }
 
 a:focus,
-a:hover {
+a:hover,
+author:focus,
+author:hover {
   color: #B908C5;
-  }
-  author:hover {
-      color: #B908C5;
   }
 
 body,
