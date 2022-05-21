@@ -64,46 +64,59 @@
 }
 
 a {
-  color: #1772d0;
+  color: #196CD1;
   text-decoration: none;
 }
 
 a:focus,
 a:hover {
-  color: #f09228;
-  text-decoration: none;
-}
+  color: #B908C5;
+  }
+  author:hover {
+      color: #B908C5;
+  }
 
 body,
 td,
 th,
 tr,
 p,
-a {
+author{
   /* font-family: 'Lato', Verdana, Calibri, sans-serif; */
   font-family: 'Lato', Calibri, sans-serif;
-  font-size: 18px
+  font-size: 15px;
+  color: #777777;
+}
+
+a{
+  /* font-family: 'Lato', Verdana, Calibri, sans-serif; */
+  font-family: 'Lato', Calibri, sans-serif;
+  font-size: 15px;
 }
 
 strong {
   font-family: 'Lato', Calibri, sans-serif;
-  font-size: 18px;
+  font-size: 15px;
+  color: #333333;
 }
 
 heading {
   font-family: 'Lato', Calibri, sans-serif;
-  font-size: 24px;
+  font-size: 22px;
+  color: #333333;
 }
 
 papertitle {
   font-family: 'Lato', Calibri, sans-serif;
-  font-size: 18px;
-  font-weight: 700
+  font-size: 15px;
+  font-weight: 700;
+  color: #333333;
 }
 
 name {
   font-family: 'Lato', Calibri, sans-serif;
   font-size: 36px;
+  color: #333333;
 }
 
 .one {
@@ -131,101 +144,8 @@ span.highlight {
   background-color: #ffffd0;
 }
 
-
-/* ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 18px 20px;
-  text-decoration: none;
-}
-
-li a:hover:not(.active) {
-  background-color: #111;
-}  */
-
-/* .active {
-  background-color: #1772d0;
-} */
-
 h2{
-  font-size: 28px;
-  margin:0
-}
-
-/* * {
-  padding: 0px;
-  margin: 0px;
-  transition: 0.5 s;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-} */
-
-nav {
-  padding: -10px;
-  margin: -10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0px 30px;
-  background-color: #333;
-  color: white;
-  height: 5vh;
-  position: fixed;
-  width: 100%;
-}
-nav .links {
-  display: flex;
-}
-.links p {
-  padding: 10px;
-}
-#mobile-menu-btn {
-  display: none;
-}
-.mobile-menu {
-  color: white;
-  display: none;
-  position: absolute;
-  right: 0;
-  height: 60vh;
-  width: 70vw;
-  background-color: #333;
-}
-
-@media (max-width: 600px) {
-  #mobile-menu-btn {
-    display: block;
-  }
-  nav p {
-    display: none;
-  }
-  .mobile-menu {
-    display: none;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-  }
-}
-
-nav a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 18px 20px;
-  text-decoration: none;
+  font-size: 24px;
+  margin:0;
+  color: #333333;
 }

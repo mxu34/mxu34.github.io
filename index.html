@@ -1,492 +1,336 @@
 <!DOCTYPE HTML>
-<html lang="en">
+<!--
+	Spatial by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
 
-<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-  <title>Mengdi Xu</title>
-  
-  <meta name="author" content="Mengdi Xu">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
-  <link rel="icon" type="image/png" href="images/cmulogo.png">
-  <script src=”main.js” defer></script>
-
-  <style>
-    a:hover {
-    color: #B908C5;
-    }
-  </style>
+<head>
+	<title>Thomas Kipf | Senior Research Scientist @ Google Brain</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<noscript>
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/skel.css" />
+		<link rel="stylesheet" href="css/style-xlarge.css" />
+	</noscript>
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:400,700">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!--<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">-->
+	<!--<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">-->
+	<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/skel.min.js"></script>
+	<script src="js/skel-layers.min.js"></script>
+	<script src="js/init.js"></script>
+	<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
 </head>
 
-<body>
+<body class="landing">
 
-<script>
-  function myFunction() {
-    var x = document.getElementById("links");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
-    }
-  }
-</script>
-<!-- <ul>
-  <li><a href="#Home">Home</a></li>
-  <li><a href="#Research">Research</a></li>
-  <li><a href="#Experience">Experience</a></li>
-  <li><a href="#Education">Education</a></li>
-  <li><a href="#Misc">Misc</a></li>
-</ul> -->
+	<!-- Header -->
+	<header id="header">
+		<ul class="icons">
+			<li>
+				<a href="https://scholar.google.com/citations?user=83HL5FwAAAAJ" class="icon fa-graduation-cap"></a>
+			</li>
+			<li>
+				<a href="https://github.com/tkipf" class="icon fa-github"></a>
+			</li>
+			<li>
+				<a href="https://twitter.com/thomaskipf" class="icon fa-twitter"></a>
+			</li>
+			<li>
+				<a href="https://www.linkedin.com/in/thomas-kipf-6b260410a" class="icon fa-linkedin"></a>
+			</li>
+		</ul>
+		<nav id="nav">
+			<ul>
+				<li><a href="/" class="active">Home</a></li>
+				<li><a href="/#two">Publications</a></li>
+				<li><a href="/graph-convolutional-networks/">Blog</a></li>
+				<li><a href="/#footer">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
 
-<!-- Large Screen Navigation Bar -->
-<nav>
-  <div class="links">
-    <p><a href="#Home">Home</a></p>
-    <p><a href="#Research">Research</a></p>
-    <p><a href="#Experience">Experience</a></p>
-    <p><a href="#Education">Education</a></p>
-    <p><a href="#Misc">Misc</a></p>
-    <!-- <strong id="mobile-menu-btn">Menu</strong> -->
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-      <i class="fa fa-bars"></i>
-    </a>
-  </div>
-</nav>
-<!-- Small Screen Navigation Bar -->
-<!-- <div class="mobile-menu">
-  <p><a href="#Home">Home</a></p>
-  <p><a href="#Research">Research</a></p>
-  <p><a href="#Experience">Experience</a></p>
-  <p><a href="#Education">Education</a></p>
-  <p><a href="#Misc">Misc</a></p>
-</div> -->
+	<!-- One -->
+	<section id="one" class="wrapper style1">
+		<div class="container 75%">
+			<div class="row 200%">
+				<div class="6u 12u$(medium)">
+					<header class="major">
+						<h2>Thomas Kipf</h2>
+						<p>
+							<div class="image rounded" style="margin-bottom: 1.5em;"><img src="images/photo.jpg" width="200" alt="" /></div>
+						</p>
+						<p>Senior Research Scientist</p>
+						<p>Google Brain</p>
+					</header>
+				</div>
+				<div class="6u$ 12u$(medium)">
+					<p>I am a Senior Research Scientist at Google Brain. I obtained my PhD at the University of Amsterdam working with <a href="https://staff.fnwi.uva.nl/m.welling/" target="_blank">Max Welling</a>. For my PhD thesis on <a href="https://hdl.handle.net/11245.1/1b63b965-24c4-4bcd-aabb-b849056fa76d">Deep Learning with Graph-Structured Representations</a> I received the <a href="https://ellis.eu/news/ellis-phd-award-2021" target="_blank">ELLIS PhD Award 2021</a>. I am broadly interested in developing and studying machine learning models that can reason about the rich structure of both the physical and digital world and its combinatorial complexity. This includes topics in graph representation learning, object-centric learning, and causal representation learning.</p>
+				</div>
+			</div>
+		</div>
 
-  <table style="width:100%;max-width:1100px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;line-height:120%;"><tbody>
-    <tr style="padding:0px">
-      <td style="padding:0px">
+		<div class="container 75%">
+			<h3 style="text-align: center">News</h3>
+			<p>Note: This hasn't been actively updated in a while. Follow me on <a href="https://twitter.com/thomaskipf">Twitter</a> for latest updates. See my talk on <a href="https://dark.cs.ucl.ac.uk/speaker_19.html" target="_blank">Learning Structured Models of the World</a> for an overview of my recent work.</p>
+			<ul>
+				<li>04/2022: I led the organization of the <a href="https://objects-structure-causality.github.io/" target="_blank">ICLR 2022 Workshop on the Elements of Reasoning: Objects, Structure, and Causality (OSC)</a>.</li>
+				<li>12/2021: I received the <a href="https://ellis.eu/news/ellis-phd-award-2021" target="_blank">ELLIS PhD Award 2021</a>.</li>
+				<li>11/2021: Our paper on <a href="https://slot-attention-video.github.io/">Conditional Object-Centric Learning from Video</a> will be presented at ICLR 2022.</li>
+				<li>10/2021: I was selected to be an <a href="https://ellis.eu/fellows">ELLIS Scholar</a>.</li>
+				<li>12/2020: I am an Area Chair at ICLR.</li>
+				<li>09/2020: Our paper on <a href="https://arxiv.org/abs/2006.15055">Object-centric Learning with Slot Attention</a> is accepted for spotlight presentation at NeurIPS!</li>
+				<li>07/2020: I gave two invited workshop talks at ICML: <a href="https://slideslive.com/38930703/attentive-grouping-and-gnns-for-objectcentric-learning">Attentive Grouping</a> and <a href="https://slideslive.com/38930558/relational-structure-discovery">Relational Structure Discovery</a>.</li>
+				<li>04/2020: I have defended my PhD thesis with highest distinction "cum laude". My thesis on "Deep Learning with Graph-Structured Representations" is available <a href="https://hdl.handle.net/11245.1/1b63b965-24c4-4bcd-aabb-b849056fa76d">here</a>.</li>
+				<li>01/2020: I have joined Google Brain as a Research Scientist in Amsterdam.</li>
+				<li>12/2019: I am co-organizing the <a href="https://geometric-relational-dl.github.io">ELLIS Workshop on Geometric and Relational Deep Learning</a>.</li>
+				<li>12/2019: Our work on <a href="https://arxiv.org/abs/1812.01483">Contrastive Learning of Structured World Models</a> is accepted at <a href="https://iclr.cc">ICLR 2020</a> as an oral presentation.</li>
+				<li>08/2019: I am co-organizing the <a href="https://grlearning.github.io">Graph Representation Learning</a> workshop at NeurIPS 2019.</li>
+				<li>05/2019: I gave a tutorial on Unsupervised Learning with Graph Neural Networks at the <a href="http://www.ipam.ucla.edu/programs/workshops/workshop-iv-deep-geometric-learning-of-big-data-and-applications/?tab=overview">UCLA IPAM Workshop on Deep Geometric Learning of Big Data</a> (<a href="http://helper.ipam.ucla.edu/publications/glws4/glws4_15546.pdf">slides</a>, <a href="http://www.ipam.ucla.edu/programs/workshops/workshop-iv-deep-geometric-learning-of-big-data-and-applications/?tab=schedule">video</a>).</li>
+				<li>04/2019: Our work on <a href="https://arxiv.org/abs/1812.01483">Compositional Imitation Learning</a> is accepted at <a href="https://icml.cc">ICML 2019</a> as a long oral.</li>
+				<li>03/2019: I am co-organizing two workshops: <a href="https://rlgm.github.io">Representation Learning on Graphs and Manifolds</a> (ICLR 2019) and <a href="https://graphreason.github.io">Learning and Reasoning with Graph-Structured Data</a> (ICML 2019).</li>
+				<!-- <li>12/2018: My DeepMind internship project <a href="https://arxiv.org/abs/1812.01483">Compositional Imitation Learning: Explaining and executing one task at a time</a> is accepted as a contributed talk at the Learning by Instruction Workshop at NeurIPS 2018.</li> -->
+				<!-- <li>06/2018: One accepted paper at <a href="http://www.auai.org/uai2018/">UAI 2018</a>: <a href="https://arxiv.org/abs/1804.00891">Hyperspherical Variational Auto-Encoders</a> (plenary talk), a short paper at <a href="https://midl.amsterdam">MIDL 2018</a> on <a href="https://arxiv.org/abs/1804.04436">Extraction of Airways using Graph Neural Networks</a> and a spotlight paper at the <a href="http://www.kdd.org/kdd2018/deep-learning-day">KDD Deep Learning Day 2018</a> on <a href="https://arxiv.org/abs/1706.02263">Graph Convolutional Matrix Completion</a></li> -->
+				<li>06/2018: Our work on <a href="https://arxiv.org/abs/1703.06103">Relational GCNs</a> has won the best student research paper award at ESWC 2018.</li>
+				<!-- <li>05/2018: Our work on learning latent interaction graphs: <a href="https://arxiv.org/abs/1802.04687">Neural Relational Inference for Interacting Systems</a> is accepted as a conference paper at <a href="https://icml.cc">ICML 2018</a>.</li> -->
+				<!-- <li>03/2018: I will be joining Google DeepMind for a summer internship in 2018.</li>
+				<li>03/2018: Our paper <a href="https://arxiv.org/abs/1703.06103">Modeling Relational Data with Graph Convolutional Networks</a> is accepted as a conference paper at <a href="https://2018.eswc-conferences.org">ESWC 2018</a>.</li> -->
+				<!-- <li>2017: In the summer of 2017, I interned at Apple in <a href="https://homes.cs.washington.edu/~guestrin/index.html">Carlos Guestrin</a>'s Machine Learning team. I worked on self-attention models for sequence tagging and classification.</li> -->
+			</ul>
+		</div>
+	</section>
 
-        <section id="Home" style="padding-top:5vh;">
-        
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr style="padding:0px">
-            <td style="padding:2.5%;width:63%;vertical-align:middle;line-height: 150%;">
-              <p style="text-align:center">
-                <name>Mengdi Xu - 徐梦迪</name>
-              </p>
-              <p>
-                I am a third-year Ph. D. student advised by Prof. <a href="https://www.meche.engineering.cmu.edu/directory/bios/zhao-ding.html">Ding Zhao</a>
-                (<a href="https://safeai-lab.github.io/">SafeAI Lab</a>) at Carnegie Mellon University.
-                My research interests lie at the interface of reinforcement learning, cognitive science and robotics.
-                I am passionate about improving robots' robustness and adaptivity, especially in human-in-the-loop multi-agent systems.
-              </p>
-              <p>
-                Before joining CMU, I received my Master degree in Robotics from <a href="https://lcsr.jhu.edu/">LCSR</a> at Johns Hopkins University, supervised by Prof. <a href="https://me.jhu.edu/faculty/gregory-s-chirikjian/">Gregory S. Chirikjian</a>.
-<!--                I also worked closely with <a href="https://www.cs.jhu.edu/~rht/">Prof. Russ Taylor</a> and Prof. <a href="https://amiro.lcsr.jhu.edu/IulianIordachita/">Iulian Iordachita</a> in JHU.-->
-                I received my Bachelor of Engineering from the <a href="http://www.dae.tsinghua.edu.cn/publish/daeen/index.html">School of Vehicle and Mobility</a>
-                and Bachelor of Management from the <a href="https://www.sem.tsinghua.edu.cn/en/">School of Economics and Management</a> at Tsinghua University.
-              </p>
-              <p style="text-align:center">
-                <a href="mailto:mengdixu@andrew.cmu.edu">Email</a> &nbsp/&nbsp
-                <a href="data/CV_MengdiXu.pdf">CV</a> &nbsp/&nbsp
-<!--                <a href="data/JonBarron-bio.txt">Biography</a> &nbsp/&nbsp-->
-                <a href="https://scholar.google.com/citations?hl=zh-CN&user=A1yMyYEAAAAJ">Google Scholar</a> &nbsp/&nbsp
-                <a href="https://github.com/mxu34">Github</a>
-<!--                <a href="https://www.facebook.com/barron.jon">Facebook</a> &nbsp/&nbsp-->
-<!--                <a href="https://twitter.com/jon_barron">Twitter</a>-->
-              </p>
-            </td>
-            <td style="padding:2.5%;width:25%;max-width:25%">
-              <a href="images/profile.png"><img style="width:100%;max-width:100%" alt="profile photo" src="images/profile.png" class="hoverZoomLink"></a>
-            </td>
-          </tr>
-        </tbody></table>
-        </section>
+	<!-- Two -->
+	<section id="two" class="wrapper style2">
+		<div class="container 75%">
+			<h2 style="text-align: center">Selected Publications</h2>
+			<hr />
+			<div class="row 200%">
+				<div class="3u 4u(large) 12u$(medium)">
+					<div class="image rounded"><img src="images/slot_attention.png" width="180" alt="" style="border:none;" /></div>
+				</div>
+				<div class="9u$ 8u$(large) 12u$(medium)">
+					<header>
+						<h4>Object-centric Learning with Slot Attention</h4>
+						<p>Iterative, competitive attention for object discovery</p>
+					</header>
+					<p>F. Locatello*, D. Weissenborn, T. Unterthiner, A. Mahendran, G. Heigold, J. Uszkoreit, A. Dosovitskiy, <span style="text-decoration: underline;">T. Kipf*</span>, <span style="font-weight: bold">Object-centric Learning with Slot Attention</span>, (NeurIPS 2020), <span style="font-weight: bold; color: #DC143C">Spotlight</span> [<a href='https://arxiv.org/abs/2006.15055'>Link</a>, <a href="https://arxiv.org/pdf/2006.15055.pdf">PDF (arXiv)</a>], *equal contribution.</p>
+				</div>
+			</div>
+			<hr />
+			<div class="row 200%">
+				<div class="3u 4u(large) 12u$(medium)">
+					<div class="image rounded"><img src="images/thesis.png" width="180" alt="" style="border:none;" /></div>
+				</div>
+				<div class="9u$ 8u$(large) 12u$(medium)">
+					<header>
+						<h4>Deep Learning with Graph-Structured Representations</h4>
+						<p>PhD thesis (2020), University of Amsterdam</p>
+					</header>
+					<p><span style="text-decoration: underline;">T. N. Kipf</span>, <span style="font-weight: bold">Deep Learning with Graph-Structured Representations</span> [<a href="https://hdl.handle.net/11245.1/1b63b965-24c4-4bcd-aabb-b849056fa76d">Link</a>]</p>
+				</div>
+			</div>
+			<hr />
+			<div class="row 200%">
+				<div class="3u 4u(large) 12u$(medium)">
+						<div class="image rounded"><img src="images/cswm.png" width="180" alt="" style="border:none;" /></div>
+				</div>
+				<div class="9u$ 8u$(large) 12u$(medium)">
+					<header>
+						<h4>Contrastive Learning of Structured World Models</h4>
+						<p>Unsupervised discovery of objects, relations, and consequences of actions.</p>
+					</header>
+					<p><span style="text-decoration: underline;">T. Kipf</span>, E. van der Pol, M. Welling, <span style="font-weight: bold">Contrastive Learning of Structured World Models</span>, (ICLR 2020), <span style="font-weight: bold; color: #DC143C">Oral</span> [<a href='https://arxiv.org/abs/1911.12247'>Link</a>, <a
+										href="https://arxiv.org/pdf/1911.12247.pdf">PDF (arXiv)</a>].</p>
+				</div>
+			</div>
+			<hr />
+			<div class="row 200%">
+				<div class="3u 4u(large) 12u$(medium)">
+						<div class="image rounded"><img src="images/compile.png" width="180" alt="" style="border:none;" /></div>
+				</div>
+				<div class="9u$ 8u$(large) 12u$(medium)">
+					<header>
+						<h4>CompILE: Compositional Imitation Learning and Execution</h4>
+						<p>Unsupervised, differentiable sequence segmentation for option discovery.</p>
+					</header>
+					<p><span style="text-decoration: underline;">T. Kipf</span>, Y. Li, H. Dai, V. Zambaldi, A. Sanchez-Gonzales, E. Grefenstette, P. Kohli, P. Battaglia, <span style="font-weight: bold">CompILE: Compositional Imitation Learning and Execution</span>, (ICML 2019), <span style="font-weight: bold; color: #DC143C">Long Oral</span>  [<a href='https://arxiv.org/abs/1812.01483'>Link</a>, <a
+										href="https://arxiv.org/pdf/1812.01483.pdf">PDF (arXiv)</a>].</p>
+				</div>
+			</div>
+			<hr />
+			<div class="row 200%">
+				<div class="3u 4u(large) 12u$(medium)">
+						<div class="image rounded"><img src="images/nri.png" width="180" alt="" style="border:none;" /></div>
+				</div>
+				<div class="9u$ 8u$(large) 12u$(medium)">
+					<header>
+						<h4>Neural Relational Inference for Interacting Systems</h4>
+						<p>Learning the latent interaction graph of a dynamical system</p>
+					</header>
+					<p><span style="text-decoration: underline;">T. Kipf*</span>, E. Fetaya*, K. Wang, M. Welling, R. Zemel, <span style="font-weight: bold">Neural Relational Inference for Interacting Systems</span>, (ICML 2018) [<a href='https://arxiv.org/abs/1802.04687'>Link</a>, <a
+										href="https://arxiv.org/pdf/1802.04687.pdf">PDF (arXiv)</a>, <a href="https://github.com/ethanfetaya/nri">code</a>], *equal contribution.</p>
+				</div>
+			</div>
+			<hr />
+			<div class="row 200%">
+				<div class="3u 4u(large) 12u$(medium)">
+						<div class="image rounded"><img src="images/molgan.png" width="180" alt="" style="border:none;" /></div>
+				</div>
+				<div class="9u$ 8u$(large) 12u$(medium)">
+					<header>
+						<h4>MolGAN: An implicit generative model for small molecular graphs</h4>
+						<p>Learning to generate molecular graphs using a combined GAN/RL-based objective</p>
+					</header>
+					<p>N. De Cao, <span style="text-decoration: underline;">T. Kipf</span>, <span style="font-weight: bold">MolGAN: An implicit generative model for small molecular graphs</span>, ICML Deep Generative Models Workshop (2018) [<a href='https://arxiv.org/abs/1805.11973'>Link</a>, <a
+										href="https://arxiv.org/pdf/1805.11973.pdf">PDF (arXiv)</a>, <a href="https://github.com/nicola-decao/MolGAN">code</a>].</p>
+				</div>
+			</div>
+			<hr />
+			<div class="row 200%">
+				<div class="3u 4u(large) 12u$(medium)">
+						<div class="image rounded"><img src="images/svae.png" width="180" alt="" style="border:none;" /></div>
+				</div>
+				<div class="9u$ 8u$(large) 12u$(medium)">
+					<header>
+						<h4>Hyperspherical Variational Auto-Encoders</h4>
+						<p>Learning hyperspherical latent spaces</p>
+					</header>
+					<p>T. R. Davidson*, L. Falorsi*, N. De Cao*, <span style="text-decoration: underline;">T. Kipf</span>, J. M. Tomczak, <span style="font-weight: bold">Hyperspherical Variational Auto-Encoders</span>, (UAI 2018), <span style="font-weight: bold; color: #DC143C">Plenary Talk</span> [<a href='https://arxiv.org/abs/1804.00891'>Link</a>, <a
+										href="https://arxiv.org/pdf/1804.00891.pdf">PDF (arXiv)</a>, <a href="http://github.com/nicola-decao/s-vae">code</a>, <a href="https://nicola-decao.github.io/s-vae">blog</a>], *equal contribution.</p>
+				</div>
+			</div>
+			<hr />
+			<!-- <div class="row 200%">
+				<div class="3u 4u(large) 12u$(medium)">
+						<div class="image rounded"><img src="images/airway.png" width="180" alt="" style="border:none;" /></div>
+				</div>
+				<div class="9u$ 8u$(large) 12u$(medium)">
+					<header>
+						<h4>Extraction of Airways using Graph Neural Networks</h4>
+						<p>Graph refinement with graph neural nets</p>
+					</header>
+					<p>R. Selvan, <span style="text-decoration: underline;">T. Kipf</span>, M. Welling, J. H. Pedersen, J. Petersen, M. de Bruijne, <span style="font-weight: bold">Extraction of Airways using Graph Neural Networks</span>, (MIDL 2018 - short paper) [<a href='https://arxiv.org/abs/1804.04436'>Link</a>, <a
+										href="https://arxiv.org/pdf/1804.04436.pdf">PDF (arXiv)</a>].</p>
+				</div>
+			</div>
+			<hr /> -->
+			<div class="row 200%">
+				<div class="3u 4u(large) 12u$(medium)">
+					<div class="image rounded"><img src="images/rgcn.png" width="180" alt="" style="border:none;" /></div>
+				</div>
+				<div class="9u$ 8u$(large) 12u$(medium)">
+					<header>
+						<h4>Modeling Relational Data with Graph Convolutional Networks</h4>
+						<p>Link prediction and entity classification on knowledge graphs</p>
+					</header>
+					<p>M. Schlichtkrull*, <span style="text-decoration: underline;">T. N. Kipf*</span>, P. Bloem, R. vd Berg, I. Titov, M. Welling, <span style="font-weight: bold">Modeling Relational Data with Graph Convolutional Networks</span>, (ESWC 2018), <span style="font-weight: bold; color: #DC143C">Best Student Research Paper</span> [<a href='https://arxiv.org/abs/1703.06103'>Link</a>, <a
+										href="https://arxiv.org/pdf/1703.06103.pdf">PDF (arXiv)</a>, <a href="https://github.com/tkipf/relational-gcn">code</a>], *equal contribution.</p>
+				</div>
+			</div>
+			<hr />
+			<!-- <div class="row 200%">
+				<div class="3u 4u(large) 12u$(medium)">
+					<div class="image rounded"><img src="images/gcmc.png" width="180" alt="" style="border:none;" /></div>
+				</div>
+				<div class="9u$ 8u$(large) 12u$(medium)">
+					<header>
+						<h4>Graph Convolutional Matrix Completion</h4>
+						<p>Collaborative filtering with side information in bipartite graphs</p>
+					</header>
+					<p>R. vd Berg, <span style="text-decoration: underline;">T. N. Kipf</span>, M. Welling, <span style="font-weight: bold">Graph Convolutional Matrix Completion</span>, KDD Deep Learning Day (2018), <span style="font-weight: bold; color: #DC143C">Spotlight Talk</span> [<a href='https://arxiv.org/abs/1706.02263'>Link</a>, <a
+										href="https://arxiv.org/pdf/1706.02263.pdf">PDF (arXiv)</a>, <a href="https://github.com/riannevdberg/gc-mc">code</a>]</p>
+				</div>
+			</div>
+			<hr /> -->
+			<div class="row 200%">
+				<div class="3u 4u(large) 12u$(medium)">
+					<div class="image rounded"><img src="images/gcn.png" width="180" alt="" style="border:none;" /></div>
+				</div>
+				<div class="9u$ 8u$(large) 12u$(medium)">
+					<header>
+						<h4>Semi-Supervised Classification with Graph Convolutional Networks</h4>
+						<p>Neural networks for node classification on graphs</p>
+					</header>
+					<p><span style="text-decoration: underline;">T. N. Kipf</span>, M. Welling, <span style="font-weight: bold">Semi-Supervised Classification with Graph Convolutional Networks</span> (ICLR 2017) [<a href='http://arxiv.org/abs/1609.02907'>Link</a>, <a
+										href="https://arxiv.org/pdf/1609.02907.pdf">PDF (arXiv)</a>, <a href="https://github.com/tkipf/gcn">code</a>, <a href="http://tkipf.github.io/graph-convolutional-networks/">blog</a>]</p>
+				</div>
+			</div>
+			<hr />
+			<div class="row 200%">
+				<div class="3u 4u(large) 12u$(medium)">
+					<div class="image rounded"><img src="images/gae.png" width="180" alt="" style="border:none;" /></div>
+				</div>
+				<div class="9u$ 8u$(large) 12u$(medium)">
+					<header>
+						<h4>Variational Graph Auto-Encoders</h4>
+						<p>A latent variable model for graph-structured data</p>
+					</header>
+					<p><span style="text-decoration: underline;">T. N. Kipf</span>, M. Welling, <span style="font-weight: bold">Variational Graph Auto-Encoders</span>, (NeurIPS Bayesian Deep Learning Workshop 2016) [<a href='https://arxiv.org/abs/1611.07308'>Link</a>, <a href="http://arxiv.org/pdf/1611.07308v1.pdf">PDF (arXiv)</a>, <a href="https://github.com/tkipf/gae">code</a>]</p>
+				</div>
+			</div>
+			<hr />
+			<!-- <div class="row 200%">
+				<div class="3u 4u(large) 12u$(medium)">
+					<div class="image rounded"><img src="images/msc.png" width="180" alt="" style="border:none;" /></div>
+				</div>
+				<div class="9u$ 8u$(large) 12u$(medium)">
+					<header>
+						<h4>Recurrent Neural Networks for Graph-Based 3D Agglomeration</h4>
+						<p>M.Sc. thesis (2016), Department of Connectomics, MPI for Brain Research</p>
+					</header>
+					<p>Thesis copy available here: [<a href="http://tkipf.github.io/misc/MScThesis_ThomasKipf.pdf">PDF (9 MB)</a>]</p>
+				</div>
+			</div>
+			<hr /> -->
+			<p style="text-align:center;">For a full list, have a look at my <a href="https://scholar.google.com/citations?user=83HL5FwAAAAJ">Google Scholar</a> page.</p>
+		</div>
+	</section>
 
-        <section id="Research">
-        <h2> Research </h2>
-        <hr>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          
-          <tr onmouseout="nightsight_stop()" onmouseover="nightsight_start()">
-            <td style="padding:20px;width:30%;vertical-align:middle">
-              <img src="images/stack_front.png" alt="hpp" style="border-style: none" width="300">
-            </td>
-            <td style="padding:20px;width:70%;vertical-align:middle">
-              <p>
-                <papertitle>Robust Reinforcement Learning as a Stackelberg Game via Adaptively-Regularized Adversarial Training
-                </papertitle>
-              </p>
-              <a href="https://peidehuang.github.io/">Peide Huang</a>,
-              <strong>Mengdi Xu</strong>,
-              <a href="https://feifang.info/">Fei Fang</a>,
-              <a href="https://www.meche.engineering.cmu.edu/directory/bios/zhao-ding.html">Ding Zhao</a>
-              <br>
-              <em>Preprint, under review</em>
-              <br>
-              <a href="https://arxiv.org/pdf/2202.09514.pdf">arXiv</a> /
-              <a href="data/stack-rrl.txt">bibtex</a>
-            </td>
-          </tr>
 
-          <tr onmouseout="nightsight_stop()" onmouseover="nightsight_start()">
-            <td style="padding:20px;width:30%;vertical-align:middle">
-              <img src="images/APE.png" alt="hpp" style="border-style: none" width="300">
-            </td>
-            <td style="padding:20px;width:70%;vertical-align:middle">
-              <p>
-                <papertitle>Accelerated Policy Evaluation: Learning Adversarial Environments with Adaptive Importance Sampling
-                </papertitle>
-              </p>
-              <strong>Mengdi Xu</strong>,
-              <a href="https://peidehuang.github.io/">Peide Huang</a>,
-              Fengpei Li,
-              <a href="https://jiachengzhuml.github.io/">Jiacheng Zhu</a>,
-              Xuewei Qi,
-              Kentaro Oguchi,
-              <a href="https://sites.google.com/view/zyhuang">Zhiyuan Huang</a>,
-              <a href="http://www.columbia.edu/~khl2114/">Henry Lam</a>,
-              <a href="https://www.meche.engineering.cmu.edu/directory/bios/zhao-ding.html">Ding Zhao</a>
-              <br>
-              <em>Preprint, under review</em>
-              <br>
-              <a href="https://arxiv.org/pdf/2106.10566.pdf">arXiv</a> /
-              <a href="data/ape.txt">bibtex</a>
-              <br>
-              Abridged in ICLR 2021 Workshop in Security and Safety in Machine Learning Systems.
-              <a href="https://aisecure-workshop.github.io/aml-iclr2021/">workshop</a> /
-              <a href="data/APE_ICLR2021Workshop_poster.pdf">poster</a>
-            </td>
-          </tr>
+	<!-- Three -->
+	<section id="three" class="wrapper style3 special">
+		<div class="container 50%">
 
-          <tr onmouseout="nightsight_stop()" onmouseover="nightsight_start()">
-            <td style="padding:20px;width:30%;vertical-align:middle">
-              <img src="images/FOT_arm.png" alt="hpp" style="border-style: none" width="300">
-            </td>
-            <td style="padding:20px;width:70%;vertical-align:middle">
-              <p>
-                <papertitle>Functional Optimal Transport: Map Estimation and Domain Adaptation for Functional data
-                </papertitle>
-              </p>
-              <a href="https://jiachengzhuml.github.io/">Jiacheng Zhu</a>,
-              <a href="http://www-personal.umich.edu/~aritra/">Aritra Guha</a>,
-              <strong>Mengdi Xu</strong>,
-              Yingchen Ma,
-              Rayleigh Lei,
-              Vincenzo Loffredo,
-              <a href="http://dept.stat.lsa.umich.edu/~xuanlong/">XuanLong Nguyen</a>,
-              <a href="https://www.meche.engineering.cmu.edu/directory/bios/zhao-ding.html">Ding Zhao</a>
-              <br>
-              <em>Preprint, under review</em><br>
-              <a href="https://arxiv.org/pdf/2102.03895.pdf">arXiv</a> /
-              <a href="https://github.com/VersElectronics/FOT">code</a> /
-              <a href="data/fot.txt">bibtex</a>
-<!--              <b><p style="color:green">Green notes</p></b>-->
-<!--              <p>Description</p>-->
-            </td>
-          </tr>
+			<h2>Curriculum vitae</h2>
+			<ul class="actions">
+				<li><a href="CV_ThomasKipf.pdf" class="button alt big">Download CV</a></li>
+			</ul>
+		</div>
+	</section>
 
-          <tr onmouseout="nightsight_stop()" onmouseover="nightsight_start()">
-            <td style="padding:20px;width:30%;vertical-align:middle">
-              <img src="images/context_RL.png" alt="hpp" style="border-style: none" width="300">
-            </td>
-            <td style="padding:20px;width:70%;vertical-align:middle">
-              <p>
-                <papertitle>Context-Aware Safe Reinforcement Learning for Non-Stationary Environments
-                </papertitle>
-              </p>
-              Baiming Chen,
-              <a href="https://zuxin.me/">Zuxin Liu</a>,
-              <a href="https://jiachengzhuml.github.io/">Jiacheng Zhu</a>,
-              <strong>Mengdi Xu</strong>,
-              <a href="https://wenhao.pub/">Wenhao Ding</a>,
-              Liang Li,
-              <a href="https://www.meche.engineering.cmu.edu/directory/bios/zhao-ding.html">Ding Zhao</a>
-              <br>
-              <em>2021 IEEE International Conference on Robotics and Automation (<strong>ICRA</strong>)</em><br>
-              <a href="https://arxiv.org/pdf/2101.00531.pdf">arXiv</a> /
-              <a href="data/context_RL.txt">bibtex</a>
-<!--              <b><p style="color:green">Green notes</p></b>-->
-<!--              <p>Description</p>-->
-            </td>
-          </tr>
 
-          <tr onmouseout="nightsight_stop()" onmouseover="nightsight_start()">
-            <td style="padding:20px;width:30%;vertical-align:middle">
-              <img src="images/mbrl-gpmm.png" alt="hpp" style="border-style: none" width="300">
-            </td>
-            <td style="padding:20px;width:70%;vertical-align:middle">
-              <p>
-                <papertitle>Task-Agnostic Online Reinforcement Learning with an Infinite Mixture of Gaussian Processes
-                </papertitle>
-              </p>
-              <strong>Mengdi Xu</strong>,
-              <a href="https://wenhao.pub/">Wenhao Ding</a>,
-              <a href="https://jiachengzhuml.github.io/">Jiacheng Zhu</a>,
-              <a href="https://zuxin.me/">Zuxin Liu</a>,
-              Baiming Chen and
-              <a href="https://www.meche.engineering.cmu.edu/directory/bios/zhao-ding.html">Ding Zhao</a>
-              <br>
-              <em>Thirty-fourth Conference on Neural Information Processing Systems (<strong>NeurIPS</strong>), 2020</em><br>
-              <a href="https://papers.nips.cc/paper/2020/hash/47951a40efc0d2f7da8ff1ecbfde80f4-Abstract.html" >video</a> /
-              <a href="https://arxiv.org/pdf/2006.11441.pdf">arXiv</a> /
-              <a href="https://github.com/mxu34/mbrl-gpmm">code</a> /
-              <a href="data/mbrl-gpmm.txt">bibtex</a>
-<!--              <b><p style="color:green">Green notes</p></b>-->
-<!--              <p>Description</p>-->
-            </td>
-          </tr>
+	<!-- Footer -->
+	<footer id="footer">
+		<div class="container">
+			<h2>Get in touch</h2>
+			<ul class="icons">
+				<li>
+					<a href="https://scholar.google.com/citations?user=83HL5FwAAAAJ" class="icon fa-graduation-cap"></a>
+				</li>
+				<li>
+					<a href="https://github.com/tkipf" class="icon fa-github"></a>
+				</li>
+				<li>
+					<a href="https://twitter.com/thomaskipf" class="icon fa-twitter"></a>
+				</li>
+				<li>
+					<a href="https://www.linkedin.com/in/thomas-kipf-6b260410a" class="icon fa-linkedin"></a>
+				</li>
+			</ul>
+			<ul class="copyright">
+				<li>&copy; 2022 Thomas Kipf</li>
+			</ul>
+		</div>
+	</footer>
 
-          <tr onmouseout="nightsight_stop()" onmouseover="nightsight_start()">
-            <td style="padding:20px;width:30%;vertical-align:middle">
-              <img src="images/da-marl.png" alt="hpp" style="border-style: none" width="300">
-            </td>
-            <td style="padding:20px;width:70%;vertical-align:middle">
-              <p>
-                <papertitle>Delay-Aware Multi-Agent Reinforcement Learning</papertitle>
-              </p>
-              Baiming Chen,
-              <strong>Mengdi Xu</strong>,
-              <a href="https://zuxin.me/">Zuxin Liu</a>,
-              Liang Li and
-              <a href="https://www.meche.engineering.cmu.edu/directory/bios/zhao-ding.html">Ding Zhao</a>
-              <br>
-              <em>Preprint, under review</em><br>
-              <a href="https://arxiv.org/pdf/2005.05441.pdf">arXiv</a> /
-              <a href="https://github.com/baimingc/delay-aware-MARL">code</a> /
-              <a href="data/da-marl.txt">bibtex</a>
-<!--              <b><p style="color:green">Green notes</p></b>-->
-<!--              <p>Description</p>-->
-            </td>
-          </tr>
-
-          <tr onmouseout="nightsight_stop()" onmouseover="nightsight_start()">
-            <td style="padding:20px;width:30%;vertical-align:middle">
-              <img src="images/dmdpn.png" alt="hpp" style="border-style: none" width="300">
-            </td>
-            <td style="padding:20px;width:70%;vertical-align:middle">
-              <p>
-                <papertitle>Delay-Aware Model-Based Reinforcement Learning for Continuous Control</papertitle>
-              </p>
-              Baiming Chen,
-              <strong>Mengdi Xu</strong>,
-              Liang Li and
-              <a href="https://www.meche.engineering.cmu.edu/directory/bios/zhao-ding.html">Ding Zhao</a>
-              <br>
-              <em><strong>Neurocomputing</strong>, 2021</em><br>
-              <a href="https://arxiv.org/pdf/2005.05440.pdf">arXiv</a> /
-              <a href="https://github.com/baimingc/Delay-aware-MBRL">code</a> /
-              <a href="data/da-mbrl.txt">bibtex</a>
-<!--              <b><p style="color:green">Green notes</p></b>-->
-<!--              <p>Description</p>-->
-            </td>
-          </tr>
-
-          <tr onmouseout="nightsight_stop()" onmouseover="nightsight_start()">
-            <td style="padding:20px;width:30%;vertical-align:middle">
-              <img src="images/CMTS.png" alt="hpp" style="border-style: none" width="300">
-            </td>
-            <td style="padding:20px;width:70%;vertical-align:middle">
-              <p>
-                <papertitle>CMTS: Conditional Multiple Trajectory Synthesizer for Generating Safety-critical Driving Scenarios</papertitle>
-              </p>
-              <a href="https://wenhao.pub/">Wenhao Ding</a>,
-              <strong>Mengdi Xu</strong> and
-              <a href="https://www.meche.engineering.cmu.edu/directory/bios/zhao-ding.html">Ding Zhao</a>
-              <br>
-              <em>International Conference on Robotics and Automation (<strong>ICRA</strong>), 2020</em><br>
-              <a href="https://arxiv.org/pdf/1910.00099.pdf">arXiv</a> /
-              <a href="https://github.com/GilgameshD/ICRA2020-CMTS">code</a> /
-              <a href="data/cmts.txt">bibtex</a>
-<!--              <b><p style="color:green">Green notes</p></b>-->
-<!--              <p>Description</p>-->
-            </td>
-          </tr>
-
-          <tr onmouseout="nightsight_stop()" onmouseover="nightsight_start()">
-            <td style="padding:20px;width:30%;vertical-align:middle">
-              <img src="images/Mosquito_Staging.png" alt="hpp" style="border-style: none" width="300">
-            </td>
-            <td style="padding:20px;width:70%;vertical-align:middle">
-              <p>
-                <papertitle>Mosquito staging apparatus for producing PfSPZ malaria vaccines</papertitle>
-              </p>
-              <strong>Mengdi Xu</strong>,
-              Shengnan Lyu,
-              Yingtian Xu,
-              Can Kocabalkanli,
-              Brian K. Chirikjian,
-              John S. Chirikjian,
-              Joshua Davis,
-              Jin Seob Kim,
-              <a href="https://amiro.lcsr.jhu.edu/IulianIordachita/">Iulian Iordachita</a>,
-              <a href="https://www.cs.jhu.edu/~rht/">Prof. Russell H. Taylor</a> and
-              <a href="https://me.jhu.edu/faculty/gregory-s-chirikjian/">Gregory S. Chirikjian</a>
-              <br>
-              <em>IEEE 15th International Conference on Automation Science and Engineering (<strong>CASE</strong>), 2019</em><br>
-              <a href="https://rpk.lcsr.jhu.edu/wp-content/uploads/2019/10/Mosquito-Staging-Apparatus-for-Producing-PfSPZ-Malaria-Vaccines.pdf">paper</a> /
-              <a href="data/Mosquito_Staging.txt">bibtex</a>
-<!--              <b><p style="color:green">Green notes</p></b>-->
-<!--              <p>Description</p>-->
-            </td>
-          </tr>
-
-          <tr onmouseout="nightsight_stop()" onmouseover="nightsight_start()">
-            <td style="padding:20px;width:30%;vertical-align:middle">
-              <img src="images/Mosquito_Vision.png" alt="hpp" style="border-style: none" width="300">
-            </td>
-            <td style="padding:20px;width:70%;vertical-align:middle">
-              <p>
-                <papertitle>Multi-Mosquito Object Detection and 2D Pose Estimation for Automation of PfSPZ Malaria Vaccine Production</papertitle>
-              </p>
-              <a href="https://hongtaowu67.github.io/">Hongtao Wu</a>,
-              Jiteng Mu,
-              Ting Da,
-              <strong>Mengdi Xu</strong>,
-              <a href="https://www.cs.jhu.edu/~rht/">Prof. Russell H. Taylor</a>,
-              <a href="https://amiro.lcsr.jhu.edu/IulianIordachita/">Iulian Iordachita</a>
-              and <a href="https://me.jhu.edu/faculty/gregory-s-chirikjian/">Gregory S. Chirikjian</a>
-              <br>
-              <em>IEEE 15th International Conference on Automation Science and Engineering (<strong>CASE</strong>), 2019</em><br>
-              <a href="https://rpk.lcsr.jhu.edu/wp-content/uploads/2019/10/Multi-Mosquito-Object-Detection-and-2D-Pose-Estimation-for-Automation-of-PfSPZ-Malaria-Vaccine-Production.pdf">paper</a> /
-              <a href="data/Mosquito_Vision.txt">bibtex</a>
-<!--              <b><p style="color:green">Green notes</p></b>-->
-<!--              <p>Description</p>-->
-            </td>
-          </tr>
-
-          <tr onmouseout="nightsight_stop()" onmouseover="nightsight_start()">
-            <td style="padding:20px;width:30%;vertical-align:middle">
-              <img src="images/DirectionCosine2.png" alt="hpp" style="border-style: none" width="300">
-            </td>
-            <td style="padding:20px;width:70%;vertical-align:middle">
-              <p>
-                <papertitle>Recovering a Rotation Matrix From Three Direction Cosines</papertitle>
-              </p>
-              <strong>Mengdi Xu</strong>
-              and <a href="https://me.jhu.edu/faculty/gregory-s-chirikjian/">Gregory S. Chirikjian</a>
-              <br>
-              <em>ASME 2018 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference (<strong>IDETC-CIE</strong>), 2018</em><br>
-              <a href="data/DETC2018-ThreeDirectionCosine.pdf">paper</a> /
-              <a href="data/DirectionCosine.txt">bibtex</a>
-<!--              <b><p style="color:green">Green notes</p></b>-->
-<!--              <p>Description</p>-->
-            </td>
-          </tr>
-
-          <tr onmouseout="nightsight_stop()" onmouseover="nightsight_start()">
-            <td style="padding:20px;width:30%;vertical-align:middle">
-              <img src="images/honeybee.png" alt="hpp" style="border-style: none" width="300">
-            </td>
-            <td style="padding:20px;width:70%;vertical-align:middle">
-              <p>
-                <papertitle>Influence of hydrodynamic pressure and vein strength on the super-elasticity of honeybee wings</papertitle>
-              </p>
-              Jieliang Zhao*,
-              <strong>Mengdi Xu*</strong>
-              Youjian Liang,
-              Shaoze Yan and
-              Wendong Niu
-              <br>
-              <em><strong>Journal of insect physiology</strong>, 2018</em><br>
-              <a href="https://www.sciencedirect.com/science/article/abs/pii/S0022191018301859">paper</a> /
-              <a href="data/honeybee.txt">bibtex</a>
-<!--              <b><p style="color:green">Green notes</p></b>-->
-<!--              <p>Description</p>-->
-            </td>
-          </tr>
-
-<!--          <tr onmouseout="mpi_stop()" onmouseover="mpi_start()">-->
-<!--            <td style="padding:20px;width:30%;vertical-align:middle">-->
-<!--              <div class="one">-->
-<!--                <div class="two" id='mpi_image'><img src='images/mpi_after.jpg'></div>-->
-<!--                <img src='images/mpi_before.jpg'>-->
-<!--              </div>-->
-<!--              <script type="text/javascript">-->
-<!--                function mpi_start() {-->
-<!--                  document.getElementById('mpi_image').style.opacity = "1";-->
-<!--                }-->
-
-<!--                function mpi_stop() {-->
-<!--                  document.getElementById('mpi_image').style.opacity = "0";-->
-<!--                }-->
-<!--                mpi_stop()-->
-<!--              </script>-->
-<!--            </td>-->
-<!--            <td style="padding:20px;width:70%;vertical-align:middle">-->
-<!--              <a href="https://drive.google.com/file/d/1TU5L6fnt4Kd49IUOU7aNxor5NIgdHuNG/view?usp=sharing">-->
-<!--                <papertitle>Pushing the Boundaries of View Extrapolation with Multiplane Images</papertitle>-->
-<!--              </a>-->
-<!--              <br>-->
-<!--              <a href="https://people.eecs.berkeley.edu/~pratul/">Pratul P. Srinivasan</a>, Richard Tucker,-->
-<!--              <strong>Jonathan T. Barron</strong>,-->
-<!--              <a href="http://cseweb.ucsd.edu/~ravir/">Ravi Ramamoorthi</a>,-->
-<!--              <a href="http://graphics.stanford.edu/~renng/">Ren Ng</a>,-->
-<!--              <a href="https://www.cs.cornell.edu/~snavely/">Noah Snavely</a>-->
-<!--              <br>-->
-<!--              <em>CVPR</em>, 2019 &nbsp <font color="red"><strong>(Oral Presentation, Best Paper Award Finalist)</strong></font>-->
-<!--              <br>-->
-<!--              <a href="https://drive.google.com/file/d/1GUW_n-BAn9Q4VntEA_OTHNJiHO7XfC62/view?usp=sharing">supplement</a> /-->
-<!--              <a href="https://www.youtube.com/watch?v=aJqAaMNL2m4">video</a> /-->
-<!--              <a href="data/SrinivasanCVPR2019.bib">bibtex</a>-->
-<!--              <p></p>-->
-<!--              <p>View extrapolation with multiplane images works better if you reason about disocclusions and disparity sampling frequencies.</p>-->
-<!--            </td>-->
-<!--          </tr>-->
-
-        </tbody></table>
-        </section>
-
-        <br>
-
-        <section id="Experience"></section>
-        <h2>Experience</h2>
-        <hr>
-        <table style="line-height:150%" class="table table-hover table-striped">
-          <tr><td style="width:30%;">&emsp;<strong>Research Intern</strong> in Machine Learning, Toyota Research Institute, Summer 2021</td></tr>
-          <tr><td style="width:30%;">&emsp;<strong>Teaching Assistant</strong> of Modern Control, Carnegie Mellon University, Fall 2021</td></tr>
-          <tr><td style="width:30%;">&emsp;<strong>Assistant to Associate Chief Editor</strong>, Robotica, 2018.9-2019.5</td></tr>
-          <tr><td style="width:30%;">&emsp;<strong>Teaching Assistant</strong> of EN.530.645 Kinematics, Johns Hopkins University, Fall 2018</td></tr>
-          <tr><td style="width:30%;">&emsp;<strong>Teaching Assistant</strong> of EN.530.646 Robot Devices, Kinematics, Dynamics, and Control, Johns Hopkins University, Spring 2019</td></tr>
-        </table> 
-
-        <br>
-
-        <br>
-
-        <section id="Education">
-          <h2>Education</h2>
-          <hr>
-          <table style="line-height:150%" class="table table-hover table-striped">
-            <tr><td style="width:25%;">&emsp;2019 - Now</td><td style="width:80%;">Carnegie Mellon University. Ph.D. in Mechanical Engineering</td></tr>
-            <tr><td style="width:25%;">&emsp;2021 - Now</td><td style="width:80%;">Carnegie Mellon University. M.S. in Machine Learning</td></tr>
-            <tr><td style="width:25%;">&emsp;2017 - 2019</td><td style="width:80%;">Johns Hopkins Univesity. M.S.E. in Robotics</td></tr>
-            <tr><td style="width:25%;">&emsp;2013 - 2017</td><td style="width:80%;">Tsinghua University. B.S. Management</td></tr>
-            <tr><td style="width:25%;">&emsp;2013 - 2017</td><td style="width:80%;">Tsinghua University. B.S. Automotive Engineering</td></tr>
-          </table>
-        </section>
-
-        <br>
-
-        <br>
-
-        <section id="Misc">
-        <h2>Misc</h2>
-        <hr>
-
-        <table style="line-height:150%" class="table table-hover table-striped">
-          <tr><td style="width:25%;">&emsp;<a href="https://youtu.be/8PUd6e4jm2Y">Autonomous Quality Inspection System</a></td></tr>
-          <tr><td style="width:25%;">&emsp;<a href="https://www.youtube.com/watch?v=YDTHSN-5QHw&t=74s">UR5 Maze Solver</a></td></tr>
-        </table>
-        </section>
-        
-        <br>
-
-        <br>
-
-      </td>
-    </tr>
-  </table>
 </body>
 
 </html>
