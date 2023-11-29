@@ -78,44 +78,61 @@ author:hover {
 body,
 td,
 th,
-tr,
-p,
+tr{
+  /* font-family: 'Lato', Verdana, Arial, sans-serif; */
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 16px;
+  color: #404040;
+  line-height: 1.3;
+}
+
+p{
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 16px;
+  color: #404040;
+  margin:0;
+  line-height: 1.3;
+}
+
+papertext,
 author{
-  /* font-family: 'Lato', Verdana, Calibri, sans-serif; */
-  font-family: 'Lato', Calibri, sans-serif;
+  font-family: 'Lato', Arial, sans-serif;
   font-size: 16px;
   color: #777777;
+  line-height: 1.3;
 }
 
 a{
-  /* font-family: 'Lato', Verdana, Calibri, sans-serif; */
-  font-family: 'Lato', Calibri, sans-serif;
+  font-family: 'Lato', Arial, sans-serif;
   font-size: 16px;
 }
 
 strong {
-  font-family: 'Lato', Calibri, sans-serif;
+  font-family: 'Lato', Arial, sans-serif;
   font-size: 16px;
   color: #333333;
 }
 
-heading {
-  font-family: 'Lato', Calibri, sans-serif;
+heading{
+  font-family: 'Lato', Arial, sans-serif;
   font-size: 22px;
   color: #333333;
 }
 
+talktitle,
 papertitle {
-  font-family: 'Lato', Calibri, sans-serif;
+  font-family: 'Lato', Arial, sans-serif;
   font-size: 16px;
   font-weight: 700;
   color: #333333;
+  line-height: 1.3;
 }
 
 name {
-  font-family: 'Lato', Calibri, sans-serif;
+  font-family: 'Lato', Arial, sans-serif;
   font-size: 36px;
   color: #333333;
+  line-height: 1.8;
 }
 
 .one {
@@ -144,16 +161,31 @@ span.highlight {
 }
 
 h2{
-  font-family: 'Lato', Calibri, sans-serif;
-  font-size: 26px;
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 24px;
   margin:0;
   color: #333333;
 }
 
 
 h3{
-  font-family: 'Lato', Calibri, sans-serif;
-  font-size: 22px;
-  margin:10;
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 18px;
   color: #333333;
 }
+
+h4{
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 18px;
+  margin:0;
+  color: #333333;
+}
+
+ul {
+  margin: 0;
+}
+
+/* ul li {
+display: inline;
+list-style: none;
+} */
